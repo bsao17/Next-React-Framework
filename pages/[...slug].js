@@ -1,7 +1,11 @@
-
+import Navigation from "../components/Navigation"
 
 const Slug = () => {
-    return <h1>Slug</h1>
+    return (
+        <div style={{textAlign: "center"}}>
+            <h1 style={{color: "red"}}>Slug</h1>
+        </div>
+    )
 }
 
 export default Slug

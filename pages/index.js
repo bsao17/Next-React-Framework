@@ -1,23 +1,13 @@
-import Link from 'next/link'
+import Link from "next/link";
+import Navigation from "../components/Navigation";
+import Video from "../components/Video";
 
 function Home() {
   return (
-    <ul>
-      <li>
-        <Link href="/post">Go to pages/post/[pid].js</Link>
-      </li>
-      <li>
-        <Link href="/contact">
-           Contact
-        </Link>
-      </li>
-      <li>
-        <Link href="/post/abc/a-comment">
-          Go to pages/post/[pid]/[comment].js
-        </Link>
-      </li>
-    </ul>
-  )
+    <div className="overflow-hidden z-0">
+      <Video/>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

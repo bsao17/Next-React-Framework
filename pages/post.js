@@ -1,8 +1,9 @@
+import Navigation from "../components/Navigation";
 
 const Post = () => {
     return (
         <>
-            <h1>post</h1>
+            <h1>Post</h1>
         </>
     )
 }
